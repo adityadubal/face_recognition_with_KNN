@@ -11,10 +11,10 @@ clc;
 clear;
 
 % Train data contains sample datasets whose labels are already known
-train_data = load('C:\Users\Aditya\Downloads\Data Mining\DataMiningProject1\ATNT50\ATNT50\trainDataXY.txt');
+train_data = load('C:\Users\***\trainDataXY.txt');
 
 % Test data contains sample whose labels are unknown
-test_data = load('C:\Users\Aditya\Downloads\Data Mining\DataMiningProject1\ATNT50\ATNT50\testDataX.txt');
+test_data = load('C:\Users\***\testDataX.txt');
 
 % Slice known labels from training dataset
 known_labels = train_data(1,:);
